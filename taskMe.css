@@ -1,0 +1,62 @@
+*{
+font-family:sans-serif;
+}
+
+body{
+margin:10px !important;
+}
+
+.listStyle{
+	margin: 10px;
+	box-shadow: 6px 3px 5px rgb(190, 186, 186);
+	background-color: white;
+	border: 2px solid rgb(102,102,102);
+	border-radius: 5px;
+	width: 250px;
+	height: 360px;
+	overflow: auto;
+	display: inline-block !important;
+}
+.delete-list{
+	float:right;
+}
+.header{
+margin:8px 8px;
+text-align:center;
+}
+.create-task{
+float:left;
+}
+
+.create-task,.delete-list{
+	cursor:pointer;
+}
+
+.modify-task,.delete-task{
+	cursor:pointer;
+	margin: 0px 7px;
+}
+
+span.modify-task:hover{
+background-color:lightgray;
+}
+
+.listDiv{
+	display:none;
+}
+
+.tasksList > div{
+	margin: 10px 2px;
+	height: 35px;
+	border-radius: 5px;
+}
+
+#list-name{
+display:inline !important;
+width:20% !important;
+}
+
+.tasksList input[type=text]{
+width:75% !important;
+display: inline !important;
+}
